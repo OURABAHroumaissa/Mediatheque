@@ -1,22 +1,30 @@
 <mat-card class="example-card">
+  
     <mat-card-header>
-      <mat-card-title> {{produit.nom | slice:0:10}}
-      <span *ngIf="produit.nom.length > 10">
+      <div mat-card-avatar class="example-header-image"></div>
+
+      <mat-card-title> {{produit.nom | slice: 0:20}}
+      <span *ngIf="produit.nom.length > 20">
         ...
       </span>
     </mat-card-title>
-    <h5 *ngIf="produit.artiste">{{produit.artiste}}</h5>
-    </mat-card-header>
-    <span *ngIf="produit.img != ''">
-      <img mat-card-image src="{{produit.img}}" alt="Photo">
-    </span>
-    <span *ngIf="!produit.img">
-      <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba1.jpg" alt="Photo">
-    </span>
+    <mat-card-subtitle *ngIf="produit.artiste">{{produit.artiste}}</mat-card-subtitle>
+    <mat-card-subtitle *ngIf="produit.real">{{produit.real  | slice: 0:10}}</mat-card-subtitle>
+   </mat-card-header>
+
+     
+      <img *ngIf="produit.img != ''" mat-card-image src="{{produit.img}}" alt="Photo">
+   
+  
+      <img *ngIf="!produit.img" mat-card-image src="https://material.angular.io/assets/img/examples/shiba1.jpg" alt="Photo">
+    
     <mat-card-content>
-      <p>
-        {{produit.synopsis}}
-      </p>
+      <p  *ngIf="produit.synopsis" >
+        {{produit.synopsis | slice: 0:150}}
+      
+      <span *ngIf="produit.synopsis.length > 150">
+        ...
+      </span></p>
     </mat-card-content>
     <mat-card-actions>
       <button mat-button>DETAILS</button>

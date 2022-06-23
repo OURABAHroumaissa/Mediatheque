@@ -15,6 +15,7 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import { ProductListComponent } from './pages/products-page/product-list/product-list.component';
 import { ProductCardComponent } from './pages/products-page/product-card/product-card.component';
 import {MatCardModule} from '@angular/material/card';
+import {MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import {MatCardModule} from '@angular/material/card';
     MatToolbarModule,
     MatButtonModule,
     MatSidenavModule,
-    MatCardModule
+    MatCardModule,
+    MatProgressSpinnerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

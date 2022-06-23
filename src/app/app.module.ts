@@ -14,6 +14,7 @@ import { MatButtonModule } from '@angular/material/button';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { ProductListComponent } from './pages/product-list/product-list.component';
 import { ProductCardComponent } from './pages/product-card/product-card.component';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { ProductCardComponent } from './pages/product-card/product-card.componen
     BrowserAnimationsModule,
     MatToolbarModule,
     MatButtonModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -22,7 +22,7 @@ export class ProductsPageComponent implements OnInit {
     real: "Francis Ford Coppola",
     synopsis: "En 1945, à New York, les Corleone sont une des 5 familles de la mafia. Don Vito Corleone, `parrain' de cette famille, marie sa fille à un bookmaker. Sollozzo, `parrain' de la famille Tattaglia, propose à Don Vito une association dans le trafic de drogue, mais celui-ci refuse. Sonny, un de ses fils, y est quant à lui favorable. Afin de traiter avec Sonny, Sollozzo tente de faire tuer Don Vito, mais celui-ci en réchappe.",
     annee: 1972,
-    img: "",
+    img: "https://fr.web.img2.acsta.net/pictures/22/01/14/08/39/1848157.jpg",
     details: ""
     },
     {
@@ -41,7 +41,7 @@ export class ProductsPageComponent implements OnInit {
     nom: "The Dark Side of the Moon",
     artiste: "Pink Floyd",
     annee: 1973,
-    img: "",
+    img: "https://m.media-amazon.com/images/I/81aTawcGdmL._SL1500_.jpg",
     details: ""
     },
     {
@@ -49,7 +49,7 @@ export class ProductsPageComponent implements OnInit {
     nom: "Space Oddity",
     artiste: "David Bowie",
     annee: 1969,
-    img: "",
+    img: "https://m.media-amazon.com/images/I/81GaOhfPyFL._SL1300_.jpg",
     details: ""
     }
     ]

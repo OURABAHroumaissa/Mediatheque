@@ -17,6 +17,7 @@ import { ProductCardComponent } from './pages/products-page/product-card/product
 import {MatCardModule} from '@angular/material/card';
 import {MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
+
 @NgModule({
   declarations: [
     AppComponent,

@@ -16,6 +16,7 @@ import { ProductListComponent } from './pages/products-page/product-list/product
 import { ProductCardComponent } from './pages/products-page/product-card/product-card.component';
 import {MatCardModule} from '@angular/material/card';
 import {MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { ProductPageComponent } from './pages/product-page/product-page.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import {MatProgressSpinnerModule } from '@angular/material/progress-spinner';
     HomePageComponent,
     ProductsPageComponent,
     ProductListComponent,
-    ProductCardComponent
+    ProductCardComponent,
+    ProductPageComponent
   ],
   imports: [
     BrowserModule,

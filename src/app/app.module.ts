@@ -17,6 +17,7 @@ import { ProductCardComponent } from './pages/products-page/product-card/product
 import {MatCardModule} from '@angular/material/card';
 import {MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { ProductPageComponent } from './pages/product-page/product-page.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -39,7 +40,8 @@ import { ProductPageComponent } from './pages/product-page/product-page.componen
     MatButtonModule,
     MatSidenavModule,
     MatCardModule,
-    MatProgressSpinnerModule
+    MatProgressSpinnerModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

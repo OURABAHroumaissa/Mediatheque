@@ -1,4 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Album } from 'src/app/models/Album.model';
+import { Film } from 'src/app/models/Film.model';
 
 @Component({
   selector: 'app-product-card',
@@ -8,10 +10,13 @@ import { Component, Input, OnInit } from '@angular/core';
 export class ProductCardComponent implements OnInit {
   @Input()
   produit: any;
+  @Input()
+  typeProduct: string="";
   
   constructor() { }
 
   ngOnInit(): void {
   }
+
 
 }

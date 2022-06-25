@@ -8,6 +8,17 @@ import { FooterComponent } from './commons/footer/footer.component';
 import { NotFoundComponent } from './commons/not-found/not-found.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { ProductsPageComponent } from './pages/products-page/products-page.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import { ProductListComponent } from './pages/products-page/product-list/product-list.component';
+import { ProductCardComponent } from './pages/products-page/product-card/product-card.component';
+import {MatCardModule} from '@angular/material/card';
+import {MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { ProductPageComponent } from './pages/product-page/product-page.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -16,11 +27,21 @@ import { ProductsPageComponent } from './pages/products-page/products-page.compo
     FooterComponent,
     NotFoundComponent,
     HomePageComponent,
-    ProductsPageComponent
+    ProductsPageComponent,
+    ProductListComponent,
+    ProductCardComponent,
+    ProductPageComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatToolbarModule,
+    MatButtonModule,
+    MatSidenavModule,
+    MatCardModule,
+    MatProgressSpinnerModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

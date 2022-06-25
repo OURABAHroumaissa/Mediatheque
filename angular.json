@@ -109,5 +109,7 @@
       }
     }
   },
-  "defaultProject": "Mediatheque"
+  "cli": {
+    "analytics": "08effb44-2e1d-488b-885e-33971b8c816a"
+  }
 }

@@ -1,4 +1,5 @@
 import { Component,Input, OnInit } from '@angular/core';
+import { Film } from 'src/app/models/Film.model';
 
 @Component({
   selector: 'app-product-list',
@@ -8,8 +9,13 @@ import { Component,Input, OnInit } from '@angular/core';
 export class ProductListComponent implements OnInit {
   @Input()
   products: any[] = [];
+  @Input()
+  type:string="rien";
 
-  constructor() { }
+
+  constructor() {
+    //alert(this.products instanceof Film);
+   }
 
   ngOnInit(): void {
   }

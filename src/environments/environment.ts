@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  API_URL: "http://localhost:3000",
+  IMG_DEFAULT: "https://portugalinews.eu/wp-content/uploads/2018/09/film.jpg"
 };
 
 /*

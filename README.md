@@ -10,7 +10,7 @@ Run `npm install` to install modules
 
 Run `npm i json-server` to install the data server
 
-Run `npm run start:db` for a data server. Navigate to `http://localhost:3000/`. The application will automatically reload if you change any of the source files.
+Run `npm run start:db` to run the data server. Navigate to `http://localhost:3000/`. The application will automatically reload if you change any of the source files.
 
 To access or see data just add the object name to the URL (exemple `http://localhost:3000/Films` to see the array Filns)
 

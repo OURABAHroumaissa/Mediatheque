@@ -12,7 +12,7 @@ Run `npm i json-server` to install the data server
 
 Run `npm run start:db` to run the data server. Navigate to `http://localhost:3000/`.
 
-To access or see data just add the object name to the URL (exemple `http://localhost:3000/Films` to see the array Filns)
+To access or see data just add the object name to the URL (exemple `http://localhost:3000/Films` to see the array Films)
 
 PS: if the port 3000 is in use just change it to another one exe: 5000 but you have to change the environement variable API_URL
 

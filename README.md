@@ -1,6 +1,20 @@
 # Mediatheque
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.6.
+to turn on this project you need NodeJS ana Angular/Client installed ( this project used Angular/Client version 13.3.6.)s
+
+## Download modules
+
+Run `npm install` to install modules
+
+## Turn on the data server
+
+Run `npm i json-server` to install the data server
+
+Run `npm run start:db` for a data server. Navigate to `http://localhost:3000/`. The application will automatically reload if you change any of the source files.
+
+To access or see data just add the object name to the URL (exemple `http://localhost:3000/Films` to see the array Filns)
+
+PS: if the port 3000 is in use just change it to another one exe: 5000 but you have to change the environement variable API_URL
 
 ## Development server
 

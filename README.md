@@ -1,6 +1,6 @@
 # Mediatheque
 
-to turn on this project you need NodeJS ana Angular/Client installed ( this project used Angular/Client version 13.3.6.)s
+to turn on this project you need NodeJS and Angular/Client installed ( this project used Angular/Client version 13.3.6.)s
 
 ## Download modules
 

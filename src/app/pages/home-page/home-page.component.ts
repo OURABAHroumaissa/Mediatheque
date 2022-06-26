@@ -3,6 +3,7 @@ import { Album } from 'src/app/models/Album.model';
 import { Film } from 'src/app/models/Film.model';
 import { AlbumHttpService } from 'src/app/services/album/album-http.service';
 import { FilmHttpService } from 'src/app/services/film/film-http.service';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-home-page',
@@ -12,6 +13,7 @@ import { FilmHttpService } from 'src/app/services/film/film-http.service';
 export class HomePageComponent implements OnInit {
   films: Film[] = [];
   albums: Album[] = [];
+  img_default: string =environment.IMG_DEFAULT;
 
   i:number=0;
     

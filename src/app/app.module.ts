@@ -20,6 +20,9 @@ import { ProductPageComponent } from './pages/product-page/product-page.componen
 import { HttpClientModule } from '@angular/common/http';
 
 
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,6 +34,8 @@ import { HttpClientModule } from '@angular/common/http';
     ProductListComponent,
     ProductCardComponent,
     ProductPageComponent
+    
+    
   ],
   imports: [
     BrowserModule,
